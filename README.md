@@ -7,6 +7,8 @@ This is a MERN-stack website, React Front-end with node&express REST API server,
 
 [Click Here to rediret to Heroku](https://mern-feetbook.herokuapp.com/)
 
+**Login with username:maggy@email.com and password:123456**
+
 ### Tools:
 - React.js
 - Express.js
