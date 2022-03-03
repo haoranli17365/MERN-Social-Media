@@ -6,7 +6,7 @@ import { SearchRounded, PersonRounded, ChatRounded, NotificationsRounded } from 
 
 
 const NavBar = () => {
-    const PF = process.env.REACT_APP_PUBLIC_FOLDER;
+    const PF = "https://mern-feetbook.herokuapp.com/images/";
     const { user } = useContext(AuthContext);
 
   return (

@@ -2,7 +2,7 @@ import React from 'react';
 import './ClosedFriends.css';
 
 const ClosedFriends = (props) => {
-  const PF = process.env.REACT_APP_PUBLIC_FOLDER;
+  const PF = "https://mern-feetbook.herokuapp.com/images/";
   
   return (
     <li className="sidebar-friend">

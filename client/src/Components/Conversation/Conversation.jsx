@@ -3,7 +3,7 @@ import {axiosInstance} from '../../config';
 import './Conversation.css';
 const Conversation = ({ conversation, currentUser}) => {
   // environmental Source Path.
-  const PF = process.env.REACT_APP_PUBLIC_FOLDER;
+  const PF = "https://mern-feetbook.herokuapp.com/images/";
   const [user, setUser] = useState(null)
 
   useEffect(() => {

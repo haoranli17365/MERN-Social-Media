@@ -8,7 +8,7 @@ import {Link} from 'react-router-dom';
 import { AddRounded, EditRounded, RemoveRounded } from '@mui/icons-material';
 import Modal from '../ModelBox/ModelBox';
 const RightBar = ( props ) => {
-  const PF = process.env.REACT_APP_PUBLIC_FOLDER;
+  const PF = "https://mern-feetbook.herokuapp.com/images/";
   const [friends, setFriends] = useState([]);
   const { user: currentUser, dispatch } = useContext(AuthContext);
 

@@ -5,7 +5,7 @@ import { AuthContext } from '../../Context/AuthContext';
 import { axiosInstance } from '../../config';
 
 const Share = () => {
-    const PF = process.env.REACT_APP_PUBLIC_FOLDER;
+    const PF = 'https://mern-feetbook.herokuapp.com/images/'; // hard code this path since heroku cannot set in directory .env 
     const { user } = useContext(AuthContext);
     // handle upload image.
     const desc = useRef();
