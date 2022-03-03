@@ -1,0 +1,264 @@
+.post-container {
+    width: 100%;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68);
+    box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68);
+    margin: 30px 0;
+}
+
+.post-wrapper {
+    padding: 10px;
+}
+
+.post-top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.post-top-left {
+    display: flex;
+    align-items: center;
+}
+
+.post-top-right {
+    cursor: pointer;
+}
+
+.post-top-right-icon:hover {
+    color: #4267b2;
+    transform: scale(1.1)
+}
+
+.post-top-right-icon:active {
+    transform: scale(0.93);
+}
+
+.post-profile-img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.post-username {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 10px;
+    cursor:pointer;
+}
+
+.post-date {
+    font-size: 16px;
+}
+
+.post-center {
+    margin: 20px 0;
+}
+
+.post-img {
+    margin-top: 20px;
+    width: 100%;
+    max-height: 70vh;
+    object-fit: contain;
+}
+
+.post-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.post-bottom-left {
+    display: flex;
+    align-items: center;
+
+}
+
+.like-button {
+    width: 28px;
+    height: 28px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.like-button:active {
+    transform: scale(0.93);
+}
+
+.post-like-count {
+    font-size: 16px;
+}
+
+.post-comment {
+    font-size: 18px;
+    border-bottom: 1px dashed gray;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.dropdown-content span {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content span:hover {
+    color: #4267b2;
+    background-color: #f1f1f1;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+
+.dropdown-content span:active {
+    transform: scale(0.98);
+}
+
+.display-block {
+    display: block; 
+}
+
+.display-none {
+    display: none;
+}
+
+/* popup styles  */
+.popup-edit-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 8px;
+}   
+
+.popup-edit-desc {
+    border-radius: 10px;
+    padding: 12px;
+    width: 80%;
+    height: 120px;
+    overflow-y: auto;
+    resize: none;
+    background-color: whitesmoke;
+}
+
+.popup-edit-desc:focus {
+    outline-color: #4267b2;
+}
+
+.popup-edit-desc-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-top: 20px;
+    width: 100%;
+    gap: 8px;
+    color: #4267b2;
+    font-weight: 500;
+}
+
+.popup-delete-button {
+    margin: 50px 0px;
+    padding: 12px 18px; 
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    
+    background-color: #D0342C;
+    color: whitesmoke;
+}
+
+.popup-delete-button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.popup-delete-button:active {
+    transform: scale(0.98);
+}
+
+.popup-delete-text {
+    text-align:start;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.popup-edit-img-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-top: 12px;
+    width: 100%;
+    gap: 4px;
+    color: #4267b2;
+    font-weight: 500;
+}
+
+.popup-edit-img-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 18rem;
+    width: auto;
+}
+
+.popup-edit-img {
+    height: 98%;
+}
+
+.popup-update-file {
+    padding: 12px 10px;
+    background-color: #4267b2;
+    border-radius: 10px;
+    color: whitesmoke;
+}
+
+.popup-update-file:active   {
+    transform: scale(0.93);
+}
+
+.popup-submit:active {
+    transform: scale(0.93);
+}
+
+.popup-button-group {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.popup-submit {
+    margin-left: 20px;
+    padding: 12px 18px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    color: #4267b2;
+    outline: #4267b2;
+    border: none;
+    font-weight: 500;
+}

@@ -1,0 +1,139 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  
+.modal-wrapper {
+
+    padding: 12px;
+    position:fixed;
+    background: white;
+    border-radius: 15px;
+    width: 30%;
+    height: auto;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.display-block {
+    display: block;
+}
+  
+.display-none {
+    display: none;
+}
+
+.modal-close {
+    cursor: pointer;
+}
+
+.modal-close:active {
+    transform: scale(0.95);
+    color:#4267b2;
+}
+
+.modal-input-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-form {
+    padding: 12px;;
+    height: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items:baseline;
+    justify-content: center;
+    gap: 18px;
+
+}
+
+.modal-label {
+    font-size: 23px;
+    color: #4267b2;
+}
+
+.modal-input {
+    margin-top: 12px;
+    /* outline: none; */
+    border-radius: 8px;
+    height: 30px;
+    border-style: solid;
+    font-size: 18px;
+    padding: 2px 8px;
+}
+
+.modal-input:focus {
+    outline-color: #4267b2;
+}
+
+.modal-input-relation-container {
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+    margin-top: 8px;
+    color: black;
+    font-size: 19px;
+    gap: 12px;
+}
+
+.modal-input-relation {
+    margin-right: 8px;
+}
+
+.modal-input-label {
+    margin-right: 20px;
+}
+
+
+.modal-label-textarea {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-textarea {
+    border-radius: 10px;
+    height: 200px;
+    width: 21.5rem;
+    padding:8px;
+    margin-top: 8px;
+}
+
+.modal-textarea:focus {
+    outline-color: #4267b2;
+}
+
+.modal-submit{
+    padding: 8px 20px;
+    border-radius: 10px;
+    border: #4267b2;
+    background-color: #4267b2;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.modal-submit:active {
+    transform: scale(0.98);
+    outline: none;
+
+}
